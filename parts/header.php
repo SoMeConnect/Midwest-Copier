@@ -4,5 +4,4 @@
     <style src="css/plugins.min.css" type="text/css" />
     <style src="css/style.css" type="text/css" />
 </head>
-<body>
-    
+<body class="<?php echo getcwd() . "\n" ?>">
