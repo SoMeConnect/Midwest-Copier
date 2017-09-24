@@ -95,7 +95,6 @@
                                             <button type="submit" class="button" style="margin-top:2em;">Send</button>
                                         </fieldset>
                                     </form>
-                                    <p>Need to make an account? <a style="font-weight:700;" href="/login">Register</a></p>
                                 </div>
                             </div><!-- .entry-content -->
                         </div><!-- .inside-article -->
