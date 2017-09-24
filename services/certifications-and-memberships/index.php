@@ -58,7 +58,7 @@
                                     <a href="/services/sell-equipment/">Sell Equipment</a>
                                 </li>
                                 <li class="leftmenu menu-item menu-item-type-custom menu-item-object-custom menu-item-688" id="menu-item-688">
-                                    <a href="https://www.midwestcopier.com/inventory.aspx">Inventory</a>
+                                    <a href="/buy/">Inventory</a>
                                 </li>
                                 <li class="leftmenu leftmenu-bottom menu-item menu-item-type-post_type menu-item-object-exchange current-menu-item menu-item-447" id="menu-item-447">
                                     <a href="/services/certifications-and-memberships/">Certifications and Memberships</a>
