@@ -49,6 +49,9 @@ a, a:visited {
 .inside-left-sidebar .current-menu-item a {
 	color: #E63C2F;
 }
+.menu .current-menu-item a {
+    color: #E63C2F;
+}
 .inside-left-sidebar .menu-item a {
 	font-weight: bold;
 	text-transform: uppercase;
