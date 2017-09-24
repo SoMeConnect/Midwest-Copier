@@ -9,12 +9,12 @@
                 <main class="site-main" id="main">
                     <article class="post-297 exchange type-exchange status-publish has-post-thumbnail hentry" id="post-297" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
                         <div class="inside-article">
-                            <div class="page-header-image-single grid-container grid-parent generate-page-header"><img alt="" class="attachment-full size-full" height="560" itemprop="image" sizes="(max-width: 1540px) 100vw, 1540px" src="https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-buy.png" srcset="https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-buy.png 1540w, https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-buy-300x109.png 300w, https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-buy-768x279.png 768w, https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-buy-1024x372.png 1024w" width="1540"></div>
+                            <div class="page-header-image-single grid-container grid-parent generate-page-header"><img alt="" class="attachment-full size-full" height="560" itemprop="image" sizes="(max-width: 1540px) 100vw, 1540px" src="../../assets/images/Midwest-ServicesPage-buy.png" srcset="../../assets/images/Midwest-ServicesPage-buy.png 1540w, ../../assets/images/Midwest-ServicesPage-buy-300x109.png 300w, ../../assets/images/Midwest-ServicesPage-buy-768x279.png 768w, ../../assets/images/Midwest-ServicesPage-buy-1024x372.png 1024w" width="1540"></div>
                             <header class="entry-header">
                                 <h1 class="entry-title" itemprop="headline">Buy Equipment</h1>
                             </header><!-- .entry-header -->
                             <div class="entry-content" itemprop="text">
-                                <p>Midwest Copier Exchange only sells to dealers and wholesalers. If you are an end user looking for a quality new or used copier please contact us and we will be happy to refer you to one of the many dealers we work with nationwide.</p><a class="large otw-red radius otw-button" href="https://www.midwestcopier.com/inventory.aspx" style="background-color: #E63C2F;">View Inventory</a>
+                                <p>Midwest Copier Exchange only sells to dealers and wholesalers. If you are an end user looking for a quality new or used copier please contact us and we will be happy to refer you to one of the many dealers we work with nationwide.</p><a class="large otw-red radius otw-button" href="/buy/" style="background-color: #E63C2F;">View Inventory</a>
                             </div><!-- .entry-content -->
                         </div><!-- .inside-article -->
                     </article><!-- #post-## -->

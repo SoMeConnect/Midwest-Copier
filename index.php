@@ -50,20 +50,20 @@
                         <div class="grid-container grid-parent generate-sections-inside-container" itemprop="text">
                             <h2 class="markets-icon-head">MARKETS WE SERVE</h2>
                             <div class="grid-20 tablet-grid-33 mobile-grid-100 markets-icon">
-                                <img alt="" class="aligncenter size-medium wp-image-670" src="https://arcoa.impactpreview.com/wp-content/uploads/Corporations.svg"><span>Corporations</span>
+                                <img alt="" class="aligncenter size-medium wp-image-670" src="assets/images/Corporations.svg"><span>Corporations</span>
                             </div>
                             <div class="grid-20 tablet-grid-33 mobile-grid-100 markets-icon">
-                                <img alt="" class="aligncenter size-medium wp-image-678" src="https://arcoa.impactpreview.com/wp-content/uploads/Manufacturers.svg"><span>Manufacturers</span>
+                                <img alt="" class="aligncenter size-medium wp-image-678" src="assets/images/Manufacturers.svg"><span>Manufacturers</span>
                             </div>
                             <div class="grid-20 tablet-grid-33 mobile-grid-100 markets-icon">
-                                <img alt="" class="aligncenter size-medium wp-image-677" src="https://arcoa.impactpreview.com/wp-content/uploads/Leasing-Companies.svg"><span>Leasing<br>
+                                <img alt="" class="aligncenter size-medium wp-image-677" src="assets/images/Leasing-Companies.svg"><span>Leasing<br>
                                 Companies</span>
                             </div>
                             <div class="grid-20 tablet-grid-33 mobile-grid-100 markets-icon">
-                                <img alt="" class="aligncenter size-medium wp-image-679" src="https://arcoa.impactpreview.com/wp-content/uploads/OfficeEquipmentDealers.svg"><span>Office Equipment Dealers</span>
+                                <img alt="" class="aligncenter size-medium wp-image-679" src="assets/images/OfficeEquipmentDealers.svg"><span>Office Equipment Dealers</span>
                             </div>
                             <div class="grid-20 tablet-grid-33 mobile-grid-100 markets-icon">
-                                <img alt="" class="aligncenter size-medium wp-image-672" src="https://arcoa.impactpreview.com/wp-content/uploads/Electronic-Recyclers.svg"><span>Electronic<br>
+                                <img alt="" class="aligncenter size-medium wp-image-672" src="assets/images/Electronic-Recyclers.svg"><span>Electronic<br>
                                 Recyclers</span>
                             </div>
                         </div>

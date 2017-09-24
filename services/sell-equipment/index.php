@@ -8,14 +8,14 @@
                 <main class="site-main" id="main">
                     <article class="post-299 exchange type-exchange status-publish has-post-thumbnail hentry" id="post-299" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
                         <div class="inside-article">
-                            <div class="page-header-image-single grid-container grid-parent generate-page-header"><img alt="" class="attachment-full size-full" height="560" itemprop="image" sizes="(max-width: 1540px) 100vw, 1540px" src="https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-sell.png" srcset="https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-sell.png 1540w, https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-sell-300x109.png 300w, https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-sell-768x279.png 768w, https://arcoa.impactpreview.com/wp-content/uploads/2017/09/Midwest-ServicesPage-sell-1024x372.png 1024w" width="1540"></div>
+                            <div class="page-header-image-single grid-container grid-parent generate-page-header"><img alt="" class="attachment-full size-full" height="560" itemprop="image" sizes="(max-width: 1540px) 100vw, 1540px" src="../../assets/images/Midwest-ServicesPage-sell.png" srcset="../../assets/images/Midwest-ServicesPage-sell.png 1540w, ../../assets/images/Midwest-ServicesPage-sell-300x109.png 300w, ../../assets/images/Midwest-ServicesPage-sell-768x279.png 768w, ../../assets/images/Midwest-ServicesPage-sell-1024x372.png 1024w" width="1540"></div>
                             <header class="entry-header">
                                 <h1 class="entry-title" itemprop="headline">Sell Equipment</h1>
                             </header><!-- .entry-header -->
                             <div class="entry-content" itemprop="text">
                                 <p>Selling your used copier or printer? Midwest Copier Exchange buys all major brands of copiers and printers including; Ricoh, Konica Minolta, Sharp, Toshiba, Kyocera, Canon, HP, Kip, Lexmark and Xerox. Our price quotes always include the transportation costs from your office to ours. Our dedicated team of buyers will quickly respond to any inquiries, large or small.</p>
                                 <p>We purchase equipment from office equipment dealers, end users, electronics recyclers and leasing companies any where in the United States.</p>
-                                <p><strong>Contact us today for a quote: &nbsp;</strong></p><a class="large otw-red radius otw-button" href="https://www.midwestcopier.com/sell.aspx" style="background-color: #E63C2F;">Sell us a machine</a>
+                                <p><strong>Contact us today for a quote: &nbsp;</strong></p><a class="large otw-red radius otw-button" href="/sell/" style="background-color: #E63C2F;">Sell us a machine</a>
                             </div><!-- .entry-content -->
                         </div><!-- .inside-article -->
                     </article><!-- #post-## -->
