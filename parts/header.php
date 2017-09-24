@@ -6,7 +6,7 @@
 <link rel="stylesheet" media="all" href="/assets/css/plugins.min.css" type="text/css" />
 <link rel="stylesheet" media="all" href="/assets/css/style.css" type="text/css" />
 </head>
-<body itemtype="http://schema.org/Blog" itemscope="itemscope">
+<body itemtype="http://schema.org/Blog" itemscope="itemscope" class="secondary-nav-above-header secondary-nav-aligned-right sticky-menu-fade nav-below-header fluid-header nav-aligned-left header-aligned-left dropdown-click dropdown-click-menu-item">
 
 <a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
 
@@ -35,13 +35,13 @@
                     <div class="menu-top-right-exchange-container">
                         <ul class="menu" id="menu-top-right-exchange">
                             <li class="topmenuright menu-item menu-item-type-custom menu-item-object-custom menu-item-709" id="menu-item-709">
-                                <a href="https://www.midwestcopier.com/Login.aspx">Login</a>
+                                <a href="/login/">Login</a>
                             </li>
                             <li class="topmenuright menu-item menu-item-type-custom menu-item-object-custom menu-item-708" id="menu-item-708">
-                                <a href="https://www.midwestcopier.com/sell.aspx">Sell</a>
+                                <a href="/sell/">Sell</a>
                             </li>
                             <li class="topmenuright menu-item menu-item-type-custom menu-item-object-custom menu-item-707" id="menu-item-707">
-                                <a href="https://www.midwestcopier.com/inventory.aspx">Buy</a>
+                                <a href="/buy/">Buy</a>
                             </li>
                             <li class="topmenuright menu-item menu-item-type-post_type menu-item-object-exchange menu-item-535" id="menu-item-535">
                                 <a href="/services/">Services</a>
