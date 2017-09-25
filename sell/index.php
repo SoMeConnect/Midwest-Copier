@@ -19,7 +19,7 @@
                                 <p>Note: An Asterisk (*) denotes a required field.</p>
                                 <p>Note: You can add machines from multiple locations, if needed. Simply fill out the address form below, and for each machine you add, the address for the given machine will be taken from these fields. You can change the address at any time while adding machines.</p>
                                 <div class="form-container">
-                                    <form id="contact" class="input-container" action="" method="post">
+                                    <form id="contact" class="input-container" action="" method="get">
                                         <fieldset class="form-group grid-66" id="company-name">
                                             <span class="input-label"><strong>Company Name: *</strong></span>
                                             <input class="grid-100" type="text" tabindex="1" required autofocus />
@@ -96,7 +96,7 @@
                                             <input class="grid-100" type="text" tabindex="1" required autofocus />
                                         </fieldset>
                                         <fieldset class="form-group grid-66" id="email">
-                                            <span class="input-label"><strong>Address Line 1: *</strong></span>
+                                            <span class="input-label"><strong>Email: *</strong></span>
                                             <input class="grid-100" type="email" tabindex="1" required autofocus />
                                         </fieldset>
                                         <fieldset class="form-group grid-66" id="phoneno">
@@ -111,7 +111,7 @@
                                             <div class="google-spam-check"></div>
                                         </fieldset>
                                         <fieldset class="form-group grid-66" id="submit">
-                                            <button type="submit" class="button" style="margin-top:2em;">Send Email</button>
+                                            <button type="submit" value="submit" class="button" style="margin-top:2em;">Send Email</button>
                                         </fieldset>
                                     </form>
                                 </div>
