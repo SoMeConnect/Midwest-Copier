@@ -36,6 +36,7 @@
                                         </fieldset>
                                     </form>
                                     <p>Need to make an account? <a style="font-weight:700;" href="/register/">Register</a></p>
+                                    <p>Trouble logging in? <a href="#">Reset Password</a></p>
                                 </div>
                             </div><!-- .entry-content -->
                         </div><!-- .inside-article -->
