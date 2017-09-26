@@ -1,5 +1,5 @@
 <!-- HTML5 Header -->
-<?php require_once('../parts/header.php'); ?>
+<?php require_once('../../parts/header.php'); ?>
 
 <main class="exchange-template-default single single-exchange postid-287 wp-custom-logo post-image-above-header post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right slideout-enabled slideout-desktop sticky-menu-fade mega-menu-main-home-menu  featured-image-active left-sidebar nav-below-header fluid-header one-container nav-aligned-left header-aligned-left dropdown-click dropdown-click-menu-item">
     <div class="hfeed site grid-container container grid-parent" id="page">
@@ -80,4 +80,4 @@
 </main>
 
 <!-- HTML5 Footer -->
-<?php require_once('../parts/footer.php'); ?>
+<?php require_once('../../parts/footer.php'); ?>
