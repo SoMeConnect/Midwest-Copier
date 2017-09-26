@@ -69,7 +69,7 @@
     </div><!-- .inside-header -->
 </header>
 
-<main class="exchange-template-default single single-exchange postid-287 wp-custom-logo post-image-above-header post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right slideout-enabled slideout-desktop sticky-menu-fade mega-menu-main-home-menu  featured-image-active left-sidebar nav-below-header fluid-header one-container nav-aligned-left header-aligned-left dropdown-click dropdown-click-menu-item">
+<main class="exchange-template-default single single-exchange postid-287 wp-custom-logo post-image-above-header post-image-aligned-center secondary-nav-above-header secondary-nav-aligned-right slideout-enabled slideout-desktop sticky-menu-fade mega-menu-main-home-menu  featured-image-active left-sidebar nav-below-header fluid-header one-container nav-aligned-left header-aligned-left dropdown-click dropdown-click-menu-item sell">
     <div class="hfeed site grid-container container grid-parent" id="page">
         <div class="site-content" id="content">
             <div class="content-area grid-parent mobile-grid-100 grid-100 tablet-grid-100" id="primary">
@@ -142,26 +142,70 @@
                                             <table class="machine-list">
                                                 <tbody>
                                                     <tr class="header">
-                                                        <td>Delete</td>
-                                                        <td>Quantity</td>
-                                                        <td>Machine</td>
-                                                        <td>Address</td>
-                                                        <td>Stairs</td>
+                                                        <td style="width:10%;">Delete</td>
+                                                        <td style="width:15%;">Quantity</td>
+                                                        <td style="width:30%;">Machine</td>
+                                                        <td style="width:25%;">Address</td>
+                                                        <td style="width:20%;">Stairs</td>
                                                     </tr>
-                                                    <tr class="listings no-listings">
+                                                    <tr class="listings no-listings visible">
                                                         <td colspan="5">No machines listed</td>
                                                     </tr>
                                                     <tr class="listings results-listings hidden">
-                                                        <td>Delete Result</td>
-                                                        <td>Quantity Result</td>
-                                                        <td>Machine Result</td>
-                                                        <td>Address Result</td>
-                                                        <td>Stairs Result</td>
+                                                        <td colspan="5" class="results-container">
+                                                            <table class="results-table">
+                                                                <tbody>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>             
+                                                    </tr>
+                                                    <tr class="listings add-listings hidden">
+                                                        <td colspan="5">
+                                                            <table class="search">
+                                                                <tbody>
+                                                                    <tr class="options-fields">
+                                                                        <td>
+                                                                            <span class="input-label">Quantity:</span> 
+                                                                            <input type="number" name="quantity" class="option-quantity" required />
+                                                                            <input type="hidden" name="quantity" class="hidden-quantity" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <span class="input-label">Equipment:</span>
+                                                                            <select name="equipment" class="option-equipment" required>
+                                                                                <option>Equipment Name</option>
+                                                                            </select>
+                                                                            <input type="hidden" name="quantity" class="hidden-equipment" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <span class="input-label">Make:</span>
+                                                                            <input type="text" name="make" class="option-make" required />
+                                                                            <input type="hidden" name="quantity"  class="hidden-make" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <span class="input-label">Model:</span>
+                                                                            <input type="text" name="model" class="option-model" required />
+                                                                            <input type="hidden" name="quantity"  class="hidden-model" />
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="comments-fields">
+                                                                        <td colspan="5">
+                                                                            <span class="input-label">Accessories / Comments:</span>
+                                                                            <input type="text" name="comments" style="width:100%;" value="" class="option-comments" />
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="submission-btn">
+                                                                        <td colspan="4">
+                                                                            <button type="button" class="cancel">Cancel</button> <button type="button" class="confirm">Confirm</button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
                                                     </tr>
                                                     <tr class="buttons">
-                                                        <td colspan="2"><button type="submit" class="button clear-list">Delete Selected Machines</button></td>
+                                                        <td colspan="2"><button type="button" class="button delete-machine inactive">Delete Selected Machines</button></td>
                                                         <td colspan="2"></td>
-                                                        <td colspan="1"><button type="submit" class="button add-to-list">Add Machine</button></td>
+                                                        <td colspan="1"><button type="button" class="button add-machine active">Add Machine</button></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -170,7 +214,7 @@
                                             <span class="input-label"><strong>Name: *</strong></span>
                                             <input class="grid-100" type="text" tabindex="1" required autofocus />
                                         </fieldset>
-                                        <fieldset class="form-group grid-66" id="email">
+                                        <fieldset class="form-group grid-66" style="padding-right:0;" id="email">
                                             <span class="input-label"><strong>Email: *</strong></span>
                                             <input class="grid-100" type="email" tabindex="1" required autofocus />
                                         </fieldset>

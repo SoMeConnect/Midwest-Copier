@@ -537,10 +537,11 @@ ol li:before {
 	float: left;
 	margin-right: 1em;
 }
-.input-container input {
+.input-container input,.input-container select {
 	border: 1px solid #979797;
 }
-.input-container input[type=phone] {
+.input-container input[type=phone],
+.input-container select {
 	height: 44px;
 	background-color: #fafafa;
 }
@@ -650,6 +651,60 @@ ol li:before {
 .machine-list .listings td {
     background-color: rgba(216,216,216,0.5);
 }
+.machine-list .hidden {
+	display: none;
+}
+.machine-list .active {
+	display: table-row;
+}
+.machine-list .add-listings td {
+    border-top: 25px solid #FFF;
+    border-bottom: 0px !important;
+}
+.machine-list .results-listings .machine,
+.machine-list .results-listings .address {
+    text-align: left;
+}
+.machine-list .results-container {
+	padding: 0;
+}
+.machine-list .results-table {
+	margin-bottom: 0;
+}
+.machine-list .results-table td {
+    padding: 8px;
+	border: 3px solid rgba(216,216,216,0);
+	border-top: 0;
+	border-bottom: 0px solid;
+    background: none !important;
+}
+.machine-list .results-table p {
+    margin-bottom: 0;
+}
+.machine-list .search input,.machine-list .search select {
+	width: 100%;
+}
+.machine-list .search td {
+	background: none !important;
+	border: none !important;
+	text-align: left;
+}
+.machine-list .search td .input-label {
+	font-weight: 700;
+}
+.machine-list .search .submission-btn td {
+    text-align: right;
+}
+.machine-list .search .submission-btn .cancel {
+	color: #0971B2;
+	border: 1px solid #0971B2;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+}
+.machine-list .search .submission-btn .confirm {
+	border-radius: 8px;
+	background-color: #E63C2F;
+}
 .form-container .buttons td {
 	text-align: left;
 	padding: 15px 0;
@@ -657,15 +712,16 @@ ol li:before {
 .form-container .buttons td:last-child {
 	text-align: right;
 }
-.form-container .buttons .clear-list {
+.form-container .buttons .button.inactive {
     background-color: #FFFFFF;
     border: 1px solid #333D47;
     border-radius: 8px;
     color: #333D47;
 	font-weight: 400;
 	width: 100%;
+	cursor: not-allowed;
 }
-.form-container .buttons .add-to-list {
+.form-container .buttons .button.active {
     background-color: #FFFFFF;
     border: 1px solid #0971B2;
     border-radius: 8px;
@@ -689,7 +745,6 @@ ol li:before {
 	border-radius: 8px;
 	background: #fff;
 	color: #3A3A3A;
-	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
@@ -735,6 +790,85 @@ ol li:before {
 }
 #additional-info,#spam-check,#terms-of-service {
     margin-top: 2em;
+}
+.results-list .header {
+	background-color: #333D47;
+	color: #fff;
+}
+.results-list .header td {
+    border: 3px solid #fff;
+	border-top: 0;
+	border-bottom: 5px solid;
+}
+.results-list .header td:first-child {
+    border-left: 0;
+}
+.results-list .header td:last-child {
+    border-right: 0;
+}
+.results-list .listings td {
+    background-color: rgba(216,216,216,0.5);
+}
+.results-list .results-row:nth-child(2n+1) {
+    background-color: rgba(216,216,216,.5);
+}
+.results-list .new-block {
+    height: 34px;
+    width: 34px;
+    background-color: #50E3C2;
+}
+.results-list .deal-block {
+    height: 34px;
+    width: 34px;
+    background-color: #417505;
+}
+.pagination {
+	text-align: center;
+}
+.pagination a {
+	color: #0971B2;
+	font-weight: 700;
+	padding: 0 10px;
+}
+.pagination .prev-arrow,.pagination .next-arrow {
+	position: relative;
+	margin: 0 35px;
+}
+.pagination .prev-arrow:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: -15px;
+	border-right: 13px solid #BDC0C3;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+}
+.pagination .prev-arrow:after {
+	content: '';
+	position: absolute;
+	left: -10px;
+	top: 2px;
+	border-right: 8px solid #fff;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+.pagination .next-arrow:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	border-left: 13px solid #0971B2;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+}
+.pagination .next-arrow:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 2px;
+	border-left: 8px solid #fff;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
 }
 
 /* Media Queries */
