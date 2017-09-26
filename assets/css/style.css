@@ -541,7 +541,9 @@ ol li:before {
 	border: 1px solid #979797;
 }
 .input-container input[type=phone],
-.input-container select {
+.input-container select,
+.input-container input[type=date],
+.input-container input[type=address] {
 	height: 44px;
 	background-color: #fafafa;
 }

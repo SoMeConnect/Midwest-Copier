@@ -14,7 +14,7 @@
                             <div class="entry-content" itemprop="text">
                                 <div class="form-container grid-50 push-25">    
                                     <p>Sign in to your Midwest Account:</p>
-                                    <form id="login" class="input-container" action="" method="post">
+                                    <form id="login" class="input-container" action="" method="GET">
                                         <fieldset class="form-group grid-100" style="margin-top:1em;" id="username">
                                             <span class="input-label"><strong>Username</strong></span>
                                             <input class="grid-100" type="text" tabindex="1" required autofocus />

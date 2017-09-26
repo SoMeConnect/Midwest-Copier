@@ -16,7 +16,7 @@
                                     <p>Create Your Midwest Copier Exchange Account<br />
                                     Already have a Midwest Account? <a href="/login/"><strong>Sign In</strong></a><br />
                                     All fields are required</p>
-                                    <form id="login" class="input-container" action="" method="post">
+                                    <form id="login" class="input-container" action="" method="GET">
                                         <fieldset class="form-group grid-50" style="margin-top:1em;" id="first-name">
                                             <span class="input-label"><strong>First Name:</strong></span>
                                             <input class="grid-100" type="text" tabindex="1" required autofocus />
