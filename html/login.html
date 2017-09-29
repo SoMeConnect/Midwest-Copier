@@ -15,6 +15,14 @@
         <button class="menu-toggle secondary-menu-toggle"><span class="mobile-menu">Menu</span></button>
         <div class="main-nav">
             <ul class="secondary-menu sf-menu" id="menu-global-group">
+                <li id="menu-item-751" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-751"><a href="#">OUR BUSINESSES<span role="button" class="dropdown-menu-toggle" aria-expanded="false"></span></a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-753" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-753"><a href="https://midwestcopierexhange.com/">Midwest Copier Exchange</a></li>
+                        <li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-escrap menu-item-752"><a href="https://arcoa.impactpreview.com/escrap/home/">ARCOA eScrap</a></li>
+                        <li id="menu-item-754" class="menu-item menu-item-type-post_type menu-item-object-itad current-menu-item menu-item-754"><a href="https://arcoa.impactpreview.com/itad/home/">ARCOA ITAD</a></li>
+                        <li id="menu-item-755" class="menu-item menu-item-type-post_type menu-item-object-logistics menu-item-755"><a href="https://arcoa.impactpreview.com/logistics/home/">ARCOA Logistics</a></li>
+                    </ul>
+                </li>            
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-500" id="menu-item-500">
                     <a href="https://arcoa.impactpreview.com/">ABOUT ARCOA GROUP</a>
                 </li>
